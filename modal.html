@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Modal</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+		<div class="container">
+		<br><br>
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-sucess" data-toggle="modal" data-target="#sucess">
+		  Sucess
+		</button>
+
+		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#info">
+		  Info
+		</button>
+
+		<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#warning">
+		  Warning
+		</button>
+
+		<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#danger">
+		  Danger
+		</button>
+
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="sucess" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content bg-transparent">
+		    	<button type="button" class="close end" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			    </button>
+		      <div class="modal-header bg-sucess">
+		      	<img src="img/sucess.png" />
+		      </div>
+		      <div class="modal-body center bg-white no-border-bottom sucess">
+		        <h2><bold>Excelente!</bold></h2>
+		        <h5>Sua solicitação foi enviada.</h5>
+		      </div>
+		      <div class="modal-footer bg-white no-border-top">
+		        <button type="button" class="btn btn-close btn-transparent" data-dismiss="modal">Fechar</button>
+		        <button type="button" class="btn btn-save btn-transparent">Salvar Alterações</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content bg-transparent">
+		    	<button type="button" class="close end" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			    </button>
+		      <div class="modal-header bg-information">
+		      	<img src="img/info.png" width="96px" />
+		      </div>
+		      <div class="modal-body center bg-white no-border-bottom information">
+		        <h2><bold>Atenção!</bold></h2>
+		        <h5>Você pode fazer alguma coisa que estaria aqui.</h5>
+		      </div>
+		      <div class="modal-footer bg-white no-border-top">
+		        <button type="button" class="btn btn-close button-info" data-dismiss="modal">Fechar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="warning" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content bg-transparent">
+		    	<button type="button" class="close end" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			    </button>
+		      <div class="modal-header bg-warning">
+		      	<img src="img/warning.png" width="96px" />
+		      </div>
+		      <div class="modal-body center bg-white no-border-bottom">
+		        <h2><bold>Cuidado!</bold></h2>
+		        <h5>A ação atual pode substituir os dados Existentes.</h5>
+		      </div>
+		      <div class="modal-footer bg-white no-border-top">
+		        <button type="button" class="btn btn-close button-warning" data-dismiss="modal">Cancelar</button>
+		        <button type="button" class="btn btn-save button-warning">Continuar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="danger" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content bg-transparent">
+		    	<button type="button" class="close end" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			    </button>
+		      <div class="modal-header bg-danger">
+		      	<img src="img/danger.png" width="96px" />
+		      </div>
+		      <div class="modal-body center bg-white no-border-bottom">
+		        <h2><bold>ERRO!</bold></h2>
+		        <h5>A ação atual causou um erro inesperado.</h5>
+		      </div>
+		      <div class="modal-footer bg-white no-border-top">
+		        <button type="button" class="btn btn-close button-danger " data-dismiss="modal">Fechar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		
+
+		
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

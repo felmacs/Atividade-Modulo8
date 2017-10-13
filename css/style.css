@@ -1,0 +1,111 @@
+.btn-sucess {
+	background-color: #46b671;
+}
+
+.btn-info {
+	background-color: #4789c5;
+}
+
+.bg-sucess{
+	background-color: #46b671;
+	justify-content: center;
+	border: 1px solid #eceeef;
+}
+.bg-information {
+	background-color: #4789c5;
+	justify-content: center;
+	border: 1px solid #eceeef;
+}
+
+.bg-warning {
+	background-color: #ffcc00;
+	justify-content: center;
+	border: 1px solid #eceeef;
+}
+
+.bg-danger {
+	background-color: #ed1b24;
+	justify-content: center;
+	border: 1px solid #eceeef;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.bg-transparent {
+	background-color: transparent;
+	border: none;
+}
+
+.end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.bg-white {
+	background-color: #fff;
+	border: 1px solid #eceeef;
+}
+
+.no-border-top {
+	display: flex;
+	border-top: #fff;
+	justify-content: center;
+}
+
+.no-border-bottom {
+	border-bottom: #fff;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sucess h2 {
+	color: #46b671;
+}
+
+ h5 {
+	color: #959595;
+}
+
+.btn-transparent {
+	background-color: transparent;
+	color: #4ab972;
+	border:1px solid #4ab972;
+}
+
+.button-warning {
+	background-color: transparent;
+	color: #f0ad4e;
+	border:1px solid #f0ad4e;
+}
+
+.button-danger {
+	background-color: transparent;
+	color: #d9534f;
+	border:1px solid #d9534f;
+}
+
+.button-info {
+	background-color: transparent;
+	color: #4789c5;
+	border:1px solid #4789c5;
+}
+
+.btn-close {
+	width: 250px;
+}
+
+.btn-save {
+	width: 250px;
+}
+
+.information h2 {
+	color: #4789c5;
+}
+
